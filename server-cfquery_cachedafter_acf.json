@@ -5,5 +5,5 @@
     "jvm":{
         "heapSize":"1024"
     },
-    "name":"cfquery_cachedafter"
+    "name":"cfquery_cachedafter_acf"
 }

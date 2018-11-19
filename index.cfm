@@ -1,6 +1,6 @@
 <cfdump var="#application#">
 <cfif NOT application.keyExists( "cachedAfterTime" )>
-    <cfset application.cachedAfterTime = dateAdd( "s", 5, now() )>
+    <cfset application.cachedAfterTime = dateAdd( "s", 15, now() )>
 </cfif>
 
 <cfquery name="getMovies" cachedafter="#application.cachedAfterTime#">

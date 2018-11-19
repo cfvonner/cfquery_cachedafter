@@ -35,8 +35,8 @@
 
         queryExecute( SQL );
 
-        var curPath = Replace( GetDirectoryFromPath( GetCurrentTemplatePath() ), "\", "/", "ALL");
-        var jsonPath = reverse( listRest( reverse( curPath ), "/" ) ) & '/api/v1/';
+        var jsonPath = Replace( GetDirectoryFromPath( GetCurrentTemplatePath() ), "\", "/", "ALL");
+        //var jsonPath = reverse( listRest( reverse( curPath ), "/" ) ) & '/api/v1/';
 
         var movies = deserializeJSON( fileRead( jsonPath & 'movies.json', 'utf-8' ) );
         movies.each( function( movie ) {
@@ -85,21 +85,11 @@
 
 <html lang="en">
     <head>
-        <cfinclude template="/includes/header.cfm">
-        <title>Angular CFML Workshop</title>
+        <title>CFQUERY with cachedAfter</title>
     </head>
     <body role="document">
         <div class="container" role="main">
-            <div id="home" class="page-header">
-                <ol class="breadcrumb">
-                    <li class="active">
-                        Home
-                    </li>
-                </ol>
-                <h1>CFSummit 2018 Preconference Workshop</h1>
-                <h2>Angular + CFML</h2>
-                <h3>Nolan Erck and Carl Von Stetten</h3>
-            </div>
+            <h1>CFQUERY with cachedAfter Testing</h1>
             <p>
                 The database for this application is being constructed.  Please 
                 wait a few seconds.

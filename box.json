@@ -1,0 +1,40 @@
+{
+    "author":"Carl Von Stetten",
+    "bugs":"",
+    "changelog":"",
+    "contributors":[],
+    "dependencies":{
+    },
+    "description":"",
+    "devDependencies":{},
+    "documentation":"",
+    "homepage":"",
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "installPaths":{
+    },
+    "instructions":"",
+    "keywords":[],
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
+    "location":"",
+    "name":"cfquery_cachedafter_test",
+    "private":false,
+    "projectURL":"",
+    "repository":{
+        "type":"",
+        "URL":""
+    },
+    "scripts":{},
+    "shortDescription":"Testing behavior of cfquery/cachedAfter on ACF & Lucee",
+    "slug":"my-package",
+    "type":"",
+    "version":"0.0.0"
+}

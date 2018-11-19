@@ -1,0 +1,9 @@
+{
+    "app":{
+        "cfengine":"lucee"
+    },
+    "jvm":{
+        "heapSize":"1024"
+    },
+    "name":"cfquery_cachedafter_lucee"
+}
