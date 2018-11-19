@@ -1,0 +1,9 @@
+{
+    "app":{
+        "cfengine":"adobe@2016"
+    },
+    "jvm":{
+        "heapSize":"1024"
+    },
+    "name":"cfquery_cachedafter"
+}
